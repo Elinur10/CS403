@@ -94,3 +94,6 @@ const users = [
 
 
 
+const students = ['isa', 'elshen', 'ferhad', 'elmir', 'aykhan']
+students.map(item => console.log())
+students.forEach(item => console.log())
