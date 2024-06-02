@@ -17,43 +17,50 @@ form.addEventListener('submit', (e) => {
     console.log(user);
 })
 
-username.addEventListener('input', (e) => {
-    if (username.value.length >= 5 && email.value && password.value && password1.value && check.value) {
+// username.addEventListener('input', (e) => {
+//     if (username.value.length >= 5 && email.value && password.value && password1.value && check.value) {
+//         btn.disabled = false
+//     } else {
+//         btn.disabled = true
+//     }
+// })
+
+// email.addEventListener('input', (e) => {
+//     if (username.value.length >= 5 && email.value && password.value && password1.value && check.value) {
+//         btn.disabled = false
+//     } else {
+//         btn.disabled = true
+//     }
+// })
+
+// password.addEventListener('input', (e) => {
+//     if (username.value.length >= 5 && email.value && password.value && password1.value && check.value) {
+//         btn.disabled = false
+//     } else {
+//         btn.disabled = true
+//     }
+// })
+
+// password1.addEventListener('input', (e) => {
+//     if (username.value.length >= 5 && email.value && password.value && password1.value && check.value) {
+//         btn.disabled = false
+//     } else {
+//         btn.disabled = true
+//     }
+// })
+
+// check.addEventListener('input', (e) => {
+//     if (username.value.length >= 5 && email.value && password.value && password1.value && check.value) {
+//         btn.disabled = false
+//     } else {
+//         btn.disabled = true
+//     }
+// })
+
+function triggerInput() {
+    if (username.value.length >= 5 && email.value && password.value && password1.value && check.checked) {
         btn.disabled = false
-    } else {
+    }else {
         btn.disabled = true
     }
-})
-
-email.addEventListener('input', (e) => {
-    if (username.value.length >= 5 && email.value && password.value && password1.value && check.value) {
-        btn.disabled = false
-    } else {
-        btn.disabled = true
-    }
-})
-
-password.addEventListener('input', (e) => {
-    if (username.value.length >= 5 && email.value && password.value && password1.value && check.value) {
-        btn.disabled = false
-    } else {
-        btn.disabled = true
-    }
-})
-
-password1.addEventListener('input', (e) => {
-    if (username.value.length >= 5 && email.value && password.value && password1.value && check.value) {
-        btn.disabled = false
-    } else {
-        btn.disabled = true
-    }
-})
-
-check.addEventListener('input', (e) => {
-    if (username.value.length >= 5 && email.value && password.value && password1.value && check.value) {
-        btn.disabled = false
-    } else {
-        btn.disabled = true
-    }
-})
-
+}
