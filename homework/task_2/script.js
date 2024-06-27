@@ -1,4 +1,5 @@
-const arr1 = [9, 1, 5, 8, 9, 9, 3, 22, 11, 12, 32, 8];
+// const arr1 = [9, 1, 5, 8, 9, 9, 3, 22, 11, 12, 32, 8];
+
 // 1.Sum all the numbers in 'arr1'
 // 2.Add two numbers (10,88) to end of arr1 (push methods)
 // 3.Remove first two numbers from arr1
@@ -52,7 +53,7 @@ const arr1 = [9, 1, 5, 8, 9, 9, 3, 22, 11, 12, 32, 8];
 7.// console.log(arr2.length);
 
 ////////////// TASK 8 //////////////
-const arr3 = ["9", 10, 100, 11, 'true', 'undefined', true, null, 'something', false]
+// const arr3 = ["9", 10, 100, 11, 'true', 'undefined', true, null, 'something', false]
 
 // 1.Show only numbers
 // 2.Show only true values
@@ -68,7 +69,7 @@ const arr3 = ["9", 10, 100, 11, 'true', 'undefined', true, null, 'something', fa
 4.// console.log(arr3.filter(item => typeof item === 'string' ));
 
 ////////////// TASK 8 //////////////
-const numbers = [1, 2, 4, 5, 3, 2, 5, 7, 8, 9, 11, 12, 22, 24, 25]
+// const numbers = [1, 2, 4, 5, 3, 2, 5, 7, 8, 9, 11, 12, 22, 24, 25]
 
 // 1.Console (only even numbers)
 // 2.Console (only odd numbers)
@@ -78,7 +79,7 @@ const numbers = [1, 2, 4, 5, 3, 2, 5, 7, 8, 9, 11, 12, 22, 24, 25]
 // console.log(numbers.filter(number => number % 2 === 1 ));
 
 ////////////// TASK 9 //////////////
-const arr4 = [10, "29", 10, 100, 11, 'true', false, 'undefined', true, null, 'something', false]
+// const arr4 = [10, "29", 10, 100, 11, 'true', false, 'undefined', true, null, 'something', false]
 
 // 1.Console all values of arr4 -
 // if value is number add it 10, if value is string add to it value + is string,if is value falsy value add to it value+ is falsly value(with return word)
@@ -153,8 +154,8 @@ const obj = {
 // 2) FullName'də soyadinizi adinizin onune keciren alqoritm yazin
 // 3) Alinan yeni arrayi stringe cevirin(join)
 
-let fullName = 'Elnur Khalilov Kamil'
-1.// console.log(fullName.split(''));
+1.// let fullName = 'Elnur Khalilov Kamil'
+// console.log(fullName.split(''));
 
 2.// const new_Arr = fullName.split(' ').map((item,index) => {
 //     if (index===0){
@@ -171,7 +172,7 @@ let fullName = 'Elnur Khalilov Kamil'
 3.// console.log(new_Arr.join(' '));
 
 
-let arr = [4, 5, 2, 1, 5, 2, 5, 3, 5, 6, 2, 1, 6, 2, 6, 2, 5, 3, 2, 7, 4, 6, 4, 5, 6, 2, 5, 6, 3, 7, 3, 7]
+// let arr = [4, 5, 2, 1, 5, 2, 5, 3, 5, 6, 2, 1, 6, 2, 6, 2, 5, 3, 2, 7, 4, 6, 4, 5, 6, 2, 5, 6, 3, 7, 3, 7]
 
 
 //4) Yuxaridaki arrayda 5 reqeminin nece defe tekrarlandigini tapin
@@ -215,7 +216,7 @@ let arr = [4, 5, 2, 1, 5, 2, 5, 3, 5, 6, 2, 1, 6, 2, 6, 2, 5, 3, 2, 7, 4, 6, 4, 
 //     }else { 
 //         return 'false'
 //     }
-// }).filter((item, index) => item !== 'false'));
+// }).filter(item => item !== 'false'));
 
 12.// console.log(arr.map((item, index) => {
 //     if (item == 5){
@@ -225,7 +226,7 @@ let arr = [4, 5, 2, 1, 5, 2, 5, 3, 5, 6, 2, 1, 6, 2, 6, 2, 5, 3, 2, 7, 4, 6, 4, 
 //     }
 // }).filter((item, index) => item !== 'false').sort((a,b) => b - a).filter((item, index) => index == 0)); //en boyuk
 
-// console.log(arr.map((item, index) => {
+12.// console.log(arr.map((item, index) => {
 //     if (item == 5){
 //         return index
 //     }else { 
@@ -249,60 +250,60 @@ let arr = [4, 5, 2, 1, 5, 2, 5, 3, 5, 6, 2, 1, 6, 2, 6, 2, 5, 3, 2, 7, 4, 6, 4, 
 
 ///////////// TASK 12//////////////
 
-let arr2 = [
-    {
-        name: 'test',
-        key: 1
-    },
-    {
-        name: 'task',
-        key: 2
-    },
-    {
-        name: 'tanqo',
-        key: 3
-    },
-    {
-        name: 'like',
-        key: 4
-    },
-    {
-        name: 'task',
-        key: 5
-    },
-    {
-        name: 'trust',
-        key: 6
-    },
-    {
-        name: 'test',
-        key: 7
-    },
-    {
-        name: 'last',
-        key: 8
-    },
-    {
-        name: 'tanqo',
-        key: 9
-    },
-    {
-        name: 'elephant',
-        key: 10
-    },
-    {
-        name: 'love',
-        key: 11
-    },
-    {
-        name: 'small',
-        key: 12
-    },
-    {
-        name: 'little',
-        key: 13
-    },
-]
+// let arr2 = [
+//     {
+//         name: 'test',
+//         key: 1
+//     },
+//     {
+//         name: 'task',
+//         key: 2
+//     },
+//     {
+//         name: 'tanqo',
+//         key: 3
+//     },
+//     {
+//         name: 'like',
+//         key: 4
+//     },
+//     {
+//         name: 'task',
+//         key: 5
+//     },
+//     {
+//         name: 'trust',
+//         key: 6
+//     },
+//     {
+//         name: 'test',
+//         key: 7
+//     },
+//     {
+//         name: 'last',
+//         key: 8
+//     },
+//     {
+//         name: 'tanqo',
+//         key: 9
+//     },
+//     {
+//         name: 'elephant',
+//         key: 10
+//     },
+//     {
+//         name: 'love',
+//         key: 11
+//     },
+//     {
+//         name: 'small',
+//         key: 12
+//     },
+//     {
+//         name: 'little',
+//         key: 13
+//     },
+// ]
 
 // 16 arr2 de "name"-i "t" herfi ile bashlayan obyektleri yeni arraya yigin
 // 17 arr2 de "name"-i "t" herfi ile bashlayib "t" herfi ile biten obyektlerin sayini tapin
@@ -349,15 +350,15 @@ let arr2 = [
 21.// let nameLengths = arr2.map(item => item.name.length);
 // let maxLength = Math.max(...nameLengths);
 // let longestNameObject = arr2.find(item => item.name.length === maxLength);
-// let longestNameObject_Index = arr2.indexOf(arr2.find(item => item.name.length === maxLength))
-// console.log(Math.pow(longestNameObject_Index,2))
+// let longestNameObjectIndex = arr2.indexOf(arr2.find(item => item.name.length === maxLength))
+// console.log(Math.pow(longestNameObjectIndex,2))
 
 22.// console.log(arr2.filter(item => item.name.length === 4))
 
 23.// let Key = arr2.map(item => item.key);
 // let maxKey = Math.max(...Key)
-// let maxKey_object = arr2.find(item => item.key === maxKey)
-// let maxKey_object_Name = maxKey_object.name
+// let maxKeyObject = arr2.find(item => item.key === maxKey)
+// let maxKeyObjectName = maxKey_object.name
 // console.log(maxKey_object_Name);
 
 24.// console.log(arr2.map((item,index) =>  {
@@ -367,7 +368,6 @@ let arr2 = [
 //         return null 
 //     }
 // }).filter(item => item ));
-
 
 
 25.// let result = arr2.filter((item) => item.name.split('t').length - 1 === 2).map(item => item.key)
